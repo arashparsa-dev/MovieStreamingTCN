@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView mainRecycler;
     List<AllCategory> allCategoryList;
 
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
