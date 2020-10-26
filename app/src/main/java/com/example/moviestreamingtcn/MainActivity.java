@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView mainRecycler;
     List<AllCategory> allCategoryList;
 
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,9 +51,7 @@ public class MainActivity extends AppCompatActivity {
         categoryTab = findViewById(R.id.tabLayout);
         nestedScrollView = findViewById(R.id.nested_scroll);
         appBarLayout = findViewById(R.id.appbar);
-
-
-
+        
 
         homeBannerList = new ArrayList<>();
         homeBannerList.add(new BannerMovies(1,"Sausage Party","https://images-eu.ssl-images-amazon.com/images/S/sgp-catalog-images/region_DE/sphe-1261640__UHD-Full-Image_GalleryCover-de-DE-1558138308729._UR1920,1080_RI_SX329_.jpg",""));
