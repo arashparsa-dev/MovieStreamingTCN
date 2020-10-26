@@ -52,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
         appBarLayout = findViewById(R.id.appbar);
 
 
+
+
         homeBannerList = new ArrayList<>();
         homeBannerList.add(new BannerMovies(1,"Sausage Party","https://images-eu.ssl-images-amazon.com/images/S/sgp-catalog-images/region_DE/sphe-1261640__UHD-Full-Image_GalleryCover-de-DE-1558138308729._UR1920,1080_RI_SX329_.jpg",""));
         homeBannerList.add(new BannerMovies(2,"Bad Neighbors","https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/832e123c29253ea66fea0fea48264b19e7d2f2574158bd922109da9acd65a424._UR1920,1080_RI_SX329_.jpg",""));
